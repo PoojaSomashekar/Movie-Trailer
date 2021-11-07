@@ -1,0 +1,113 @@
+/*dropdown design */
+.dropdowns_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 7px;
+  align-items: center;
+  margin-block-start: 19px;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 5px;
+  padding-inline-start: 0;
+}
+
+.dropdowns_card li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownBtn {
+  background-color: black;
+  border: 1px solid mediumseagreen;
+  border-radius: 2px;
+  color: mediumseagreen;
+  padding: 2px;
+  cursor: pointer;
+  width: 8rem;
+  overflow-wrap: break-word;
+}
+
+.dropdown_content {
+  display: block;
+  position: absolute;
+  background: rgba(39, 35, 35, 0.897);
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+  z-index: 999;
+  min-width: 8rem;
+}
+.dropdown_content ul {
+  list-style-type: none;
+  padding: 7px;
+  margin: 0;
+}
+
+.dropdown_content ul li {
+  list-style-type: none;
+  padding: 2px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+.dropdown_content ul li:hover {
+  color: mediumseagreen;
+}
+.dropdown_content ul li input[type="checkbox"] {
+  background: rgb(39, 35, 35);
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 0 3px 0 0;
+  padding: 0;
+  border: 1px solid white;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  width: 12px;
+  height: 12px;
+}
+input[type="checkbox"]:after {
+  content: "";
+  position: relative;
+  left: 27%;
+  top: 1%;
+  width: 30%;
+  height: 70%;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+.dropdown_content ul li input[type="checkbox"]:checked {
+  background: mediumseagreen;
+  color: white;
+}
+input[type="checkbox"]:checked:after {
+  display: block;
+  color: white;
+}
+
+input[type="checkbox"]:hover {
+  filter: brightness(90%);
+}
+
+.freshdropdwn i {
+  margin-left: 63px;
+}
+.langdropdwn i {
+  margin-left: 21px;
+}
+.generedropdwn i {
+  margin-left: 43px;
+}

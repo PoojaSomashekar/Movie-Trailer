@@ -1,0 +1,126 @@
+.trailerListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.trailerListCard {
+  width: 170px;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.trailerListCard p {
+  color: white;
+}
+
+.trailerVideo_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  color: white;
+  margin: 5px 5px 8px 5px;
+}
+
+.trailer_desc {
+  display: flex;
+  background: transparent;
+  background-color: #aaaaaa1c;
+  color: rgba(255, 255, 255, 0.438);
+  width: 42%;
+  padding: 5px;
+  margin-left: 29px;
+  font-size: 13px;
+}
+
+.trailer_desc ul {
+  list-style-type: none;
+}
+.trailer_desc ul li {
+  list-style-type: none;
+  margin: 8px;
+}
+.trailer_desc ul .videoTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.trailer_desc ul .videoGenere {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.trailer_desc ul .videoGenere span {
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 9px;
+  padding: 3px;
+}
+
+.trailer_desc ul .votesDate .totalCntPtg i {
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: mediumseagreen !important;
+}
+.trailer_desc ul .votesDate .totalCntPtg i strong {
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 0.671);
+}
+.trailer_desc ul .votesDate .dateSapn {
+  margin: 5px;
+}
+.trailer_desc ul .votesDate .dateSapn i {
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 20px;
+}
+.trailer_desc ul .votesDate .dateSapn i strong {
+  display: inline-block;
+  margin-left: 10px;
+}
+.trailer_desc ul .videoDesc p {
+  font-size: 14px;
+}
+.trailer_desc ul .voteFeedback {
+  margin-top: 60px;
+}
+.trailer_desc ul .voteFeedback span {
+  margin-left: 25px;
+}
+.trailer_desc ul .voteFeedback span,
+i {
+  font-size: 20px;
+}
+.trailer_desc ul .voteFeedback .thumbsUp i {
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: mediumseagreen;
+}
+.trailer_desc ul .voteFeedback span i .thumbsUpvotes {
+  display: block;
+  color: rgba(255, 255, 255, 0.671);
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+.trailer_desc ul .voteFeedback .question i {
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(238, 234, 24, 0.795);
+}
+.trailer_desc ul .voteFeedback .thumbsdown i {
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(236, 63, 32);
+}

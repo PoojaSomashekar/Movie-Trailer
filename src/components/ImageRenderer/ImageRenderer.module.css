@@ -1,0 +1,67 @@
+.image_container {
+  display: flex;
+  background-color: #ccc;
+  overflow: hidden;
+  position: relative;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.thumb {
+  opacity: 1;
+  /* filter: blur(10px); */
+  transition: opacity 1s ease-out;
+  position: absolute;
+}
+.isThumLoaded {
+  opacity: 0;
+}
+
+.isLoaded {
+  transition: opacity 1s ease-out;
+}
+.playIconSpan {
+  position: relative;
+  left: 65px;
+  top: 75px;
+  font-size: 40px;
+  z-index: 1;
+}
+.playIconSpan i {
+  display: inline-block;
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: white !important;
+  z-index: 1;
+}
+
+.thumbsUpIconSpan {
+  position: relative;
+  display: inline-block;
+  left: 60px;
+  top: 130px;
+  z-index: 1;
+}
+.thumbsUpIconSpan i {
+  font: normal normal normal 14 px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: mediumseagreen !important;
+}
+.thumbsUpIconSpan i strong {
+  margin-left: 5px;
+  color: white;
+}
+.votes {
+  display: block;
+  color: white;
+  margin-top: 3px;
+}

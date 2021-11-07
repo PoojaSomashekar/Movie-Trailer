@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: rgb(39, 35, 35);
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+.App .filter_sction {
+  color: #ffffff9c;
+  font-size: 14px;
+  display: flex;
+  margin-top: 3px;
+}
+.App .filter_sction ul {
+  list-style-type: none;
+  display: flex;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 1px;
+  margin-inline-end: 0px;
+  padding-inline-start: 1px;
+}
+.App .filter_sction ul li {
+  color: #ffffff9c;
+  font-size: 14px;
+}
+
+.App .filter_sction ul li button {
+  background: #8080801f;
+  color: #ffffff9c;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  padding: 4px;
+  margin-left: 6px;
+}

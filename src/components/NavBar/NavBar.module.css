@@ -1,0 +1,14 @@
+.navbarCard {
+  width: 100%;
+  background-color: black;
+}
+.navbarCard h5 {
+  display: inline-block;
+  color: mediumseagreen;
+  margin-left: 5px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.navbarCard .dropdowns {
+  float: right;
+}
